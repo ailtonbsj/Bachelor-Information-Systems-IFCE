@@ -3,6 +3,8 @@
 #include <string.h>
 #include <stdlib.h>
 
+enum index {ALL, FIRST};
+
 void showArray(int *v, int n) {
 	printf("[ ");
 	for (int i = 0; i < n; i++)	{
@@ -12,12 +14,13 @@ void showArray(int *v, int n) {
 	printf(" ]\n");
 }
 
-void buscaDuplicados(int *v, int n, int elem) {
+void buscaDuplicados(int *v, int n, int elem, int all) {
 	int cont = 0;
 	printf("Indice encontrados:\n");
 	for (int i = 0; i < n; i++)	{
 		if(elem == v[i]) {
 			printf("%i\n", i);
+			if(all == FIRST) return;
 			cont++;
 		}
 	}
@@ -30,7 +33,8 @@ int main () {
 	showArray(arr, sizeof(arr)/sizeof(int));
 
 	int q = 5;
-	buscaDuplicados(arr, sizeof(arr)/sizeof(int), q);
+	buscaDuplicados(arr, sizeof(arr)/sizeof(int), q, ALL);
+	buscaDuplicados(arr, sizeof(arr)/sizeof(int), q, FIRST);
 
 	return 0;
 }
