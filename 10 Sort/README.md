@@ -51,4 +51,3 @@ Considere que a média é calculada de acordo com a fórmula (P1+P2+P3)/3.
 Considere o struct funcionário (nome, valor da hora de trabalho, número de horas trabalhadas) e um vetor do tipo funcionário.
 
 Ordene o vetor com um selection sort e mostre os 3 funcionários com os maiores salários.
-
