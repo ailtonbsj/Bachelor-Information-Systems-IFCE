@@ -16,3 +16,16 @@ Faça um algoritmo para mostra a passagem de parâmetro por valor.
 
 Faça um algoritmo para mostra que a passagem de parâmetro por valor NÃO funciona para vetores.
 
+## 05
+
+Crie uma função que calcule a serie divergente harmônica abaixo:
+
+```
+
+ _k_
+ \   1 = 1 + 1 + 1 + 1 + 1 + ... + 1
+ /__ n       2   3   4   5         k
+ n=1
+
+ Onde k = ∞
+```
