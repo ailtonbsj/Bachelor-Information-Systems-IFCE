@@ -43,10 +43,10 @@ Considerando o struct Aluno (char nome[50] e float media), ordene um vetor do ti
 
 Faça com que o algoritmo insertionSort ordene um vetor de inteiros em ordem decrescente.
 
-## 07
+## 06
 
 Aplique o algoritmo da bolha em uma string, ordenando as letras em ordem crescente.
 
-## 08
+## 07
 
 Usando o vetor 72 12 62 69 27 67 41 56 33 74 e um algoritmo de insertion sort informe o número total de trocas necessárias para que o vetor se torne ordenado.
