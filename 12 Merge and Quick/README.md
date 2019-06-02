@@ -10,18 +10,18 @@ Considere um vetor com 10 posições com números inteiros. Ordene-o com merge s
 
 Escreva uma versão do quicksort com escolha aleatória do pivô e compare com a quantidade de trocas realizadas usando outro modo de escolha do pivô.
 
-## 03 (Completo)
+## 03
 
 Usando uma string, ordene suas letras em ordem decrescente usando um algoritmo de quicksort.
 
-## 04 (Completo)
+## 04
 
 Implemente um quicksort usando recursividade. Detalhe o funcionamento do código.
 
-## 05 (Completo)
+## 05
 
 Implemente um mergesort usando recursividade. Detalhe o funcionamento do código.
 
-## 06 (Completo)
+## 06
 
 Use um mergesort para ordenar um vetor de inteiros em ordem decrescente.
