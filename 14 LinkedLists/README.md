@@ -62,7 +62,7 @@ Use a struct `produto (int codigoProduto, char nomeProduto[20], float valor, int
 
 ## 07
 
-Considerando uma lista simplesmente encadeada, crie um struct para guardar dados de alunos (no matricula, nome). Utilize o elemento inicial (cabeça da lista ou descritor) da seguinte forma:
+Considerando uma lista simplesmente encadeada, crie um struct para guardar dados de alunos (numero de matricula, nome). Utilize o elemento inicial (cabeça da lista ou descritor) da seguinte forma:
 
 ```c
 struct descritor {
