@@ -6,7 +6,7 @@ Crie um algoritmo que peça ao usuário o ano de nascimento. Após isso, passe o
 
 ## 02
 
-Crie uma função para converter e retornar temperaturas. A função deve receber o valor a ser convertido e uma letra para indicar a temperatura orignial (‘c’ para Celsius; ‘f’ para fahrenheit.
+Crie uma função para converter e retornar temperaturas. A função deve receber o valor a ser convertido e uma letra para indicar a temperatura orignial (‘c’ para Celsius; ‘f’ para fahrenheit).
 
 ## 03
 

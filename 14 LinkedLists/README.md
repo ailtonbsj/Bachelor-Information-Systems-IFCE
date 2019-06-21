@@ -77,3 +77,12 @@ Faça os ajustes necessários para utilizar o descritor acima para as operaçõe
 ## 08
 
 Use uma duplamente encadeada e crie uma função para verificar se a lista está ordenada ou não (em ordem crescente ou decrescente).
+
+## 09
+
+Implemente as funções para retirar elementos do início e do final de uma lista duplamente encadeada. Os protótipos das funções devem ser:
+
+```c
+void retira_inicio (lista *l);
+void retira_final (lista *l);
+```

@@ -19,6 +19,9 @@ void rawInput(char *buf, unsigned int size) {
 	clearBufferKey();
 }
 
+/* Limpa o terminal completamente */
+#define clearTerminal() printf("\033[H\033[J")
+
 int main () {
 
 	
