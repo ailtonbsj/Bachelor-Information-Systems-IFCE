@@ -8,13 +8,13 @@ Exercicios da disciplina de Programação Estruturada e Estrutura de Dados (PEED
 
 Use o terminal:
 ```bash
-gcc 01-my-program.c -o my-program
+gcc 01-my-program.c -o 01-my-program
 ```
 
 ## Como executar
 
 Use o terminal:
 ```bash
-./my-program
+./01-my-program
 ```
 

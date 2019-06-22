@@ -86,3 +86,7 @@ Implemente as funções para retirar elementos do início e do final de uma list
 void retira_inicio (lista *l);
 void retira_final (lista *l);
 ```
+
+## 10
+
+Escreva uma função que troque a posição de 2 elementos recebidos como parâmetro de uma lista encadeada. Primeiramente, verifique se os elementos existem. Sua função pode trocar os valores armazenados ou os ponteiros.
