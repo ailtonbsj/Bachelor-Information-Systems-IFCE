@@ -3,6 +3,7 @@
 #include <stdio_ext.h>
 #include <string.h>
 #include <ctype.h>
+#include <time.h>
 
 /* UTILS */
 
@@ -48,6 +49,12 @@ Data* criaData(int dia, int mes, int ano) {
 	return d;
 }
 
+Data* criaDataAtual() {
+	time_t t = time(NULL);
+	struct tm d = *localtime(&t);
+	return criaData(d.tm_mday, d.tm_mon + 1, d.tm_year + 1900);
+}
+
 char* mostraData(Data *d) {
 	char *cats = (char*) malloc(15*sizeof(char));
 	sprintf(cats, "%02d/%02d/%02d", d->dia, d->mes, d->ano);
@@ -66,6 +73,12 @@ Horario* criaHorario(int hora, int min) {
 	h->hora = hora;
 	h->minuto = min;
 	return h;
+}
+
+Horario* criaHorarioAtual() {
+	time_t t = time(NULL);
+	struct tm d = *localtime(&t);
+	return criaHorario(d.tm_hour, d.tm_min);
 }
 
 char* mostraHorario(Horario *h) {
@@ -317,7 +330,7 @@ Paciente* removeDaFilaDePaciente(Paciente *p, char medico[], char diag[]) {
 			);
 		}
 		p->atendimentos[p->lenAtendimentos] = criaAtendimento(
-			criaData(22, 6, 2019), criaHorario(1, 0), medico, diag
+			criaDataAtual(), criaHorarioAtual(), medico, diag
 		);
 		p->lenAtendimentos++;
 		if(pf->prev) {
