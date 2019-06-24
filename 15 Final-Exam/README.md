@@ -9,6 +9,28 @@ Quando um paciente chega para ser atendido, uma prioridade é definida para seu 
 
 ![](01-hospitalSystem.gif?raw=true)
 
+## 02
+
+Escalonamento por alternância circular (Round Robin).
+
+- A cada processo é atribuído um intervalo de tempo, o quantum, no qual ele é permitido executar;
+- Se no final do quantum o processo não terminou, a CPU sofre uma preempção e outro processo entra para executar;
+- Quando um processo termina o seu quantum, ele é colocado no final da fila
+
+#### Como compilar
+
+Use o terminal:
+```bash
+gcc 02-processos.c -l pthread -o 02-processos
+```
+
+#### Como executar
+
+Use o terminal:
+```bash
+./02-processos
+```
+
 ## 03
 
 Crie um algoritmo para gerenciar 2 pilhas dentro de um vetor ao mesmo tempo de modo que não ocorra estouro de memória e os valores de uma pilha não sobreponham os valores da outra.
