@@ -8,3 +8,7 @@ Faça um algoritmo para organizar a fila de atendimentos de um hospital. Os paci
 Quando um paciente chega para ser atendido, uma prioridade é definida para seu atendimento. Em um atendimento é registrado a data e hora do atendimento, o nome do médico e o diagnóstico. Para auxiliar no diagnóstico, mostre os últimos 3 atendimentos do paciente (caso existam). Ao final do atendimento, esse registro é guardado no histórico do paciente.
 
 ![](01-hospitalSystem.gif?raw=true)
+
+## 03
+
+Crie um algoritmo para gerenciar 2 pilhas dentro de um vetor ao mesmo tempo de modo que não ocorra estouro de memória e os valores de uma pilha não sobreponham os valores da outra.
