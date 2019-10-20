@@ -1,4 +1,4 @@
-## Exemplos e Exercícios do Curso de C
+# Exemplos e Exercícios do Curso de C
 
 > Obs.: Todos os exemplos so foram testados utilizando o ambiente Linux (Lubuntu 18.04 LTS).
 
