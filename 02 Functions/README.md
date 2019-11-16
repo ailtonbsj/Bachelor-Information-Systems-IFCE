@@ -32,4 +32,8 @@ Crie uma função que calcule a serie divergente harmônica abaixo:
 
 ## 06
 
-Escreva um algoritmo que calcule o numero de dias de um determinado perıodo esbalecido por duas datas fornecidas pelo usuario.
+Escreva um algoritmo que calcule o numero de dias de um determinado período esbalecido por duas datas fornecidas pelo usuario.
+
+## 07
+
+Escreva um algoritmo que calcule o numero de horas de um determinado período esbalecido por duas datas de um mesmo ano fornecidas pelo usuario.
