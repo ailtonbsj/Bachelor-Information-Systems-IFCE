@@ -29,3 +29,7 @@ Crie uma função que calcule a serie divergente harmônica abaixo:
 
  Onde k = ∞
 ```
+
+## 06
+
+Escreva um algoritmo que calcule o numero de dias de um determinado perıodo esbalecido por duas datas fornecidas pelo usuario.
