@@ -9,7 +9,6 @@ void createDateTime(struct tm *t, int day, int month,
 	t->tm_hour = hour;
 	t->tm_min = min;
 	t->tm_sec = sec;
-	mktime(t);
 }
 
 int main() {
