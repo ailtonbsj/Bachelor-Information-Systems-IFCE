@@ -4,6 +4,9 @@
 % Remove as variaveis do escopo atual
 clear;
 
+% Limpa o terminal
+clc;
+
 % Cria Matriz 2x2 nomeada como A e NÃO exibe no terminal
 A = [ 1 2; 3 4 ];
 
@@ -38,3 +41,8 @@ V = 5:10
 
 % Comprimento do vetor V
 length(V)
+
+% Cria matriz de zeros e uns
+ J = zeros(3,3)
+ K = ones(3,3)
+ 

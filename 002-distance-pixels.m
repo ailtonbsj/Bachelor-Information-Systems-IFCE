@@ -6,7 +6,7 @@ clear;
 
 function ret = dist (xy, st, name)
   if (strcmp(name,'euclidiana'))
-    ret = ( (xy(1) - st(1))^2 + (xy(2) - st(2))^2 )^(1/2)
+    ret = ( (xy(1) - st(1)).^2 + (xy(2) - st(2)).^2 )^(1/2)
   elseif (strcmp(name,'cityblock'))
     ret = abs(xy(1) - st(1)) + abs(xy(2) - st(2))
   elseif (strcmp(name,'chessboard'))
