@@ -53,8 +53,20 @@ Ler uma imagem qualquer, transformar para níveis de cinza e efetuar realces de 
 
 ![](006.png)
 
-### 007
+### 007 Normalize histograms
 
 Ler uma imagem e obter outra imagem com a metade do número de linhas e colunas da imagem original (utilize imresize). Obter os histogramas normalizados dessas duas imagens e mostrar em janelas diferentes.
 
 ![](007.png)
+
+### 008 Histograms sum
+
+Ler uma imagem e obter os histogramas de duas regiões (R1 e R2) dessa imagem, em que a união (R1 ∪ R2) das duas regiões consiste na imagem inteira. Em seguida, obter um histograma resultante somando os histogramas de R1 e R2 e compará-lo com o histograma obtido a partir da imagem completa.
+
+![](008.png)
+
+### 009 Histograms of inverse
+
+Obter o histograma de uma imagem qualquer. Em seguida obter o negativo desta imagem e o histograma correspondente. Compare e mostre os histogramas obtidos em janelas diferentes.
+
+![](009.png)
