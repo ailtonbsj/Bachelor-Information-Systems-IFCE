@@ -46,3 +46,26 @@ length(V)
  J = zeros(3,3)
  K = ones(3,3)
  
+% Carrega pacote adicional
+pkg load image
+ 
+% Obtem uma imagem
+file = imread('pics/lena.jpg');
+
+% Convert para cinza
+img = rgb2gray(file);
+
+% Calcula histograma
+histIm = imhist(img);
+
+% Plota um grafico
+plot(histIm);
+
+% Equaliza o histograma da imagem
+eqIm = histeq(img);
+
+% Visualiza imagem
+imshow(eqIm)
+
+%Transforma matriz em vetor
+L = A(:);

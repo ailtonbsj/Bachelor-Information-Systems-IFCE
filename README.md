@@ -40,3 +40,21 @@ Criar uma imagem de tamanho M x N (pode ser uma matriz de zeros com apenas um pi
 Ler uma imagem qualquer (com imread) e caso a imagem lida seja colorida, transformar para níveis de cinza (com rgb2gray). Por fim, obtenha o negativo da imagem em nível de cinza.
 
 ![](004.png)
+
+### 005 Histogram Equalization
+
+Ler uma imagem qualquer, transformar para níveis de cinza e efetuar a equalização do histograma.
+
+![](005.png)
+
+### 006 Image enhancement
+
+Ler uma imagem qualquer, transformar para níveis de cinza e efetuar realces de bilho.
+
+![](006.png)
+
+### 007
+
+Ler uma imagem e obter outra imagem com a metade do número de linhas e colunas da imagem original (utilize imresize). Obter os histogramas normalizados dessas duas imagens e mostrar em janelas diferentes.
+
+![](007.png)
