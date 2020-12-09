@@ -84,6 +84,8 @@ com máscaras (ou janelas) de diferentes tamanhos (3 x 3, 5 x 5, 7 x 7, 9 x 9). 
 máscaras utilizar a função fspecial e para realizar a filtragem ou convolução utilizar a função
 filter2 ou conv2. Verificar o nível de suavização (ou borramento) na imagem.
 
+![](011.png)
+
 ### 012 Gausian Noise
 
 Ler uma imagem qualquer (utilizando imread), aplicar ruído “gaussiano” (utilizando
@@ -91,3 +93,5 @@ imnoise) e filtrar a imagem ruidosa com os filtros da média, da Gaussiana e da 
 com máscaras (ou janelas) de tamanhos 3 x 3 e 5 x 5. Para gerar as máscaras utilizar a função
 fspecial. Para realizar a convolução ou filtragem linear (média e gaussiana) utilizar a função
 filter2 ou conv2. Para a filtragem não linear da mediana utilizar a função medfilt2.
+
+![](012.png)
