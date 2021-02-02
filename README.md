@@ -95,3 +95,15 @@ fspecial. Para realizar a convolução ou filtragem linear (média e gaussiana) 
 filter2 ou conv2. Para a filtragem não linear da mediana utilizar a função medfilt2.
 
 ![](012.png)
+
+### 013 Unsharp Masking
+
+Ler uma imagem qualquer e realizar uma filtragem high-boost.
+
+![](013.png)
+
+### 014 Sobel, Prewitt and Laplacian filters
+
+Ler uma imagem qualquer e aplicar os filtros de Sobel, Prewitt e Laplaciano. Utilizar fspecial e imfilter.
+
+![](014.png)
