@@ -107,3 +107,21 @@ Ler uma imagem qualquer e realizar uma filtragem high-boost.
 Ler uma imagem qualquer e aplicar os filtros de Sobel, Prewitt e Laplaciano. Utilizar fspecial e imfilter.
 
 ![](014.png)
+
+### 015 Graythresh
+
+Segmente uma imagem qualquer em duas regiões pelo método de limiarização de Otsu. Utilize  a função graythresh.
+
+![](015.png)
+
+### 016 Gradient and Thresholding
+
+Obter o gradiente de uma imagem qualquer (com os filtros de Sobel e Prewitt) e, em seguida, detectar as bordas da imagem utilizando diferentes valores de limiares.
+
+![](016.png)
+
+### 017 Morphology
+
+Segmente uma imagem qualquer em duas regiões pelo método de limiarização de  Otsu (utilize a função graythresh) e, em seguida, realize uma operação de erosão no resultado de segmentação. Repita o processo com a operação de dilatação. Utilize as  funções imerode e imdilate.
+
+![](017.png)
